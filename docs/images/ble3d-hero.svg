@@ -21,8 +21,8 @@
     <text x="94" y="32" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-weight="750" font-size="32" letter-spacing="7">BLE3D</text>
     <text x="94" y="55" fill="#77989e" font-family="Inter,Segoe UI,sans-serif" font-size="12" letter-spacing="3">LOCAL PROXIMITY MAPPER</text>
 
-    <text x="0" y="135" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="54" font-weight="350">See the BLE signals</text>
-    <text x="0" y="196" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="54" font-weight="350">around you.</text>
+    <text x="0" y="135" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="50" font-weight="350">See the BLE signals</text>
+    <text x="0" y="196" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="50" font-weight="350">around you.</text>
     <text x="0" y="244" fill="#8faeb3" font-family="Inter,Segoe UI,sans-serif" font-size="18">Private, passive, cross-platform proximity visualization.</text>
     <g transform="translate(0 284)" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="700">
       <rect width="122" height="34" rx="17" fill="#6fffe9" fill-opacity=".1" stroke="#6fffe9" stroke-opacity=".3"/><text x="20" y="22" fill="#6fffe9">NO CONNECTIONS</text>
@@ -74,7 +74,7 @@
       <g transform="translate(178 355)"><circle r="20" fill="#092127" stroke="#74f2ce"/><path d="M0-10c9 7 8 14 0 20-8-6-9-13 0-20Zm0 3v14" fill="none" stroke="#74f2ce"/></g>
       <g transform="translate(344 416)"><circle r="19" fill="#102025" stroke="#ff7b7b" opacity=".75"/><path d="M-7-9v18l13-9-13-9Zm0 9-7-6m7 6-7 6" fill="none" stroke="#ff7b7b" stroke-width="2"/></g>
       <text x="22" y="27" fill="#668b90" font-family="Inter,Segoe UI,sans-serif" font-size="8" letter-spacing="1.4">LIVE PROXIMITY SPACE</text>
-      <text x="22" y="54" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="350">5 <tspan fill="#78989d" font-size="9">DEVICES MAPPED</tspan></text>
+      <text x="22" y="54" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="350">5</text><text x="48" y="52" fill="#78989d" font-family="Inter,Segoe UI,sans-serif" font-size="8">DEVICES MAPPED</text>
       <text x="408" y="493" fill="#708a8f" font-family="Inter,Segoe UI,sans-serif" font-size="7">ANGLES ARE VISUAL PLACEMENTS</text>
     </g>
   </g>

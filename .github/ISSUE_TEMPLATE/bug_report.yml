@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a reproducible problem in BLE3D
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve BLE3D. Remove or replace real device identifiers before submitting logs or screenshots.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [macOS, Windows, Linux, Other]
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: BLE3D revision, OS version, and adapter model when known
+      placeholder: "BLE3D 0.1.0 / macOS 15.x / built-in adapter"
+    validations:
+      required: true
+  - type: dropdown
+    id: scanner
+    attributes:
+      label: Scanner source
+      options: [Real BLE hardware, Development simulator, Both]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Open…
+        2. Select…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Add logs, screenshots, or recordings with private identifiers removed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I removed private device identifiers and bystander data.
+          required: true
