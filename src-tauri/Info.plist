@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>BLE3D uses Bluetooth to discover nearby advertising BLE devices and estimate their proximity. It never connects automatically.</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>BLE3D uses Bluetooth to discover nearby advertising BLE devices and estimate their proximity.</string>
+</dict>
+</plist>

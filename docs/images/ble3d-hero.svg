@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">BLE3D proximity mapper interface</title>
+  <desc id="desc">A dark desktop interface mapping nearby Bluetooth Low Energy devices as labeled icons around the host computer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071014"/><stop offset="1" stop-color="#102c34"/></linearGradient>
+    <radialGradient id="space"><stop stop-color="#183b43"/><stop offset=".55" stop-color="#0a1d23"/><stop offset="1" stop-color="#071014"/></radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6fffe9"/><stop offset="1" stop-color="#52c8ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="25" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="1400" height="720" rx="28" fill="url(#bg)"/>
+  <circle cx="1210" cy="90" r="280" fill="#6fffe9" opacity=".025"/>
+  <circle cx="120" cy="680" r="260" fill="#52c8ff" opacity=".035"/>
+
+  <g transform="translate(72 96)">
+    <g transform="translate(0 0)">
+      <rect width="72" height="72" rx="18" fill="#102a32" stroke="#6fffe9" stroke-opacity=".35"/>
+      <path d="M35 13v46l15-14-15-9 15-9-15-14zm0 23-14-9m14 9-14 9" fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="35" cy="36" r="3.5" fill="#fff"/>
+    </g>
+    <text x="94" y="32" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-weight="750" font-size="32" letter-spacing="7">BLE3D</text>
+    <text x="94" y="55" fill="#77989e" font-family="Inter,Segoe UI,sans-serif" font-size="12" letter-spacing="3">LOCAL PROXIMITY MAPPER</text>
+
+    <text x="0" y="135" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="54" font-weight="350">See the BLE signals</text>
+    <text x="0" y="196" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="54" font-weight="350">around you.</text>
+    <text x="0" y="244" fill="#8faeb3" font-family="Inter,Segoe UI,sans-serif" font-size="18">Private, passive, cross-platform proximity visualization.</text>
+    <g transform="translate(0 284)" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="700">
+      <rect width="122" height="34" rx="17" fill="#6fffe9" fill-opacity=".1" stroke="#6fffe9" stroke-opacity=".3"/><text x="20" y="22" fill="#6fffe9">NO CONNECTIONS</text>
+      <rect x="135" width="94" height="34" rx="17" fill="#52c8ff" fill-opacity=".09" stroke="#52c8ff" stroke-opacity=".28"/><text x="157" y="22" fill="#7cd7ff">LOCAL ONLY</text>
+      <rect x="242" width="125" height="34" rx="17" fill="#ffca71" fill-opacity=".08" stroke="#ffca71" stroke-opacity=".24"/><text x="263" y="22" fill="#ffca71">HONEST RANGING</text>
+    </g>
+    <g transform="translate(0 372)" font-family="Inter,Segoe UI,sans-serif">
+      <text y="0" fill="#5f8086" font-size="10" letter-spacing="2">BUILT WITH</text>
+      <text y="34" fill="#bbd2d5" font-size="14">Tauri 2  ·  Rust  ·  React  ·  TypeScript  ·  Three.js</text>
+    </g>
+  </g>
+
+  <g transform="translate(548 76)" filter="url(#shadow)">
+    <rect width="790" height="568" rx="18" fill="#09171c" stroke="#9bdbe1" stroke-opacity=".18"/>
+    <rect width="790" height="52" rx="18" fill="#0b1d23"/><rect y="36" width="790" height="16" fill="#0b1d23"/>
+    <circle cx="22" cy="25" r="5" fill="#ff7b7b"/><circle cx="39" cy="25" r="5" fill="#ffca71"/><circle cx="56" cy="25" r="5" fill="#74f2ce"/>
+    <text x="82" y="30" fill="#dff4f5" font-family="Inter,Segoe UI,sans-serif" font-weight="700" font-size="13" letter-spacing="2">BLE3D</text>
+    <rect x="590" y="14" width="76" height="23" rx="12" fill="#74f2ce" fill-opacity=".07" stroke="#74f2ce" stroke-opacity=".26"/>
+    <circle cx="605" cy="25" r="3" fill="#74f2ce"/><text x="615" y="29" fill="#74f2ce" font-family="Inter,Segoe UI,sans-serif" font-size="9">SCANNING</text>
+    <rect x="684" y="11" width="91" height="28" rx="7" fill="#6fffe9"/><text x="706" y="29" fill="#07201e" font-family="Inter,Segoe UI,sans-serif" font-weight="800" font-size="9">STOP SCAN</text>
+
+    <g transform="translate(0 52)">
+      <rect width="205" height="516" fill="#0b181d"/>
+      <text x="15" y="27" fill="#a9c2c5" font-family="Inter,Segoe UI,sans-serif" font-size="8" font-weight="700" letter-spacing="1.5">FILTERS</text>
+      <rect x="14" y="40" width="177" height="31" rx="6" fill="#071318" stroke="#91cdd2" stroke-opacity=".14"/>
+      <circle cx="29" cy="55" r="5" fill="none" stroke="#6d9196"/><path d="m33 59 5 5" stroke="#6d9196"/><text x="45" y="59" fill="#607d83" font-family="Inter,Segoe UI,sans-serif" font-size="9">Search devices</text>
+      <rect x="14" y="83" width="177" height="40" rx="6" fill="#ffca71" fill-opacity=".035" stroke="#ffca71" stroke-opacity=".14"/>
+      <text x="23" y="99" fill="#c5af82" font-family="Inter,Segoe UI,sans-serif" font-size="8" font-weight="700">3 UNIDENTIFIED</text><text x="23" y="113" fill="#677b79" font-family="Inter,Segoe UI,sans-serif" font-size="7">GROUPED AND HIDDEN</text><text x="160" y="107" fill="#ffca71" font-family="Inter,Segoe UI,sans-serif" font-size="8">SHOW</text>
+      <text x="15" y="151" fill="#a9c2c5" font-family="Inter,Segoe UI,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">NEARBY DEVICES</text>
+      <g font-family="Inter,Segoe UI,sans-serif">
+        <g transform="translate(14 166)"><rect width="177" height="63" rx="7" fill="#6fffe9" fill-opacity=".06" stroke="#6fffe9" stroke-opacity=".19"/><rect x="8" y="14" width="32" height="32" rx="8" fill="#74f2ce" fill-opacity=".06" stroke="#74f2ce"/><path d="M18 21h12v18H18z" fill="none" stroke="#74f2ce"/><text x="50" y="24" fill="#e2f3f4" font-size="10" font-weight="650">Jane's iPhone</text><text x="50" y="39" fill="#78979c" font-size="7">Apple · Phone · −54 dBm</text><text x="151" y="27" fill="#d7e9ea" font-size="9">1.2 m</text></g>
+        <g transform="translate(14 236)"><rect width="177" height="63" rx="7" fill="transparent" stroke="#9dd6da" stroke-opacity=".06"/><rect x="8" y="14" width="32" height="32" rx="8" fill="#74f2ce" fill-opacity=".04" stroke="#74f2ce"/><path d="M18 26q6-8 12 0v11h-3v-8m-9-3v11h3v-8" fill="none" stroke="#74f2ce"/><text x="50" y="24" fill="#d5e8e9" font-size="10">Studio Pods</text><text x="50" y="39" fill="#78979c" font-size="7">Headphones · −66 dBm</text><text x="151" y="27" fill="#d7e9ea" font-size="9">2.7 m</text></g>
+        <g transform="translate(14 306)"><rect width="177" height="63" rx="7" fill="transparent" stroke="#9dd6da" stroke-opacity=".06"/><rect x="8" y="14" width="32" height="32" rx="8" fill="#ffca71" fill-opacity=".04" stroke="#ffca71"/><circle cx="24" cy="30" r="8" fill="none" stroke="#ffca71"/><path d="M24 18v4m0 16v4" stroke="#ffca71"/><text x="50" y="24" fill="#d5e8e9" font-size="10">Pulse Band</text><text x="50" y="39" fill="#78979c" font-size="7">Fitness device · −72 dBm</text><text x="151" y="27" fill="#d7e9ea" font-size="9">4.1 m</text></g>
+      </g>
+    </g>
+
+    <g transform="translate(205 52)">
+      <rect width="585" height="516" fill="url(#space)"/>
+      <g transform="translate(305 267)" fill="none" stroke="#7ce9ef">
+        <ellipse rx="76" ry="38" opacity=".13"/><ellipse rx="148" ry="74" opacity=".11"/><ellipse rx="228" ry="114" opacity=".08"/>
+        <path d="M-276 0h552M0-210v420M-205-137 205 137M-205 137 205-137" opacity=".08"/>
+      </g>
+      <g transform="translate(305 267)" filter="url(#glow)"><circle r="10" fill="#ecffff"/><circle r="23" fill="none" stroke="#6fffe9" opacity=".32"/></g>
+      <text x="268" y="304" fill="#6fffe9" font-family="Inter,Segoe UI,sans-serif" font-size="7" letter-spacing="1">THIS DEVICE</text>
+
+      <g transform="translate(386 185)"><circle r="22" fill="#092127" stroke="#74f2ce"/><rect x="-6" y="-11" width="12" height="22" rx="2" fill="none" stroke="#74f2ce"/><rect x="-50" y="-53" width="100" height="30" rx="5" fill="#061317" stroke="#74f2ce" stroke-opacity=".25"/><text x="0" y="-40" text-anchor="middle" fill="#e9f7f8" font-family="Inter,Segoe UI,sans-serif" font-size="8">Jane's iPhone</text></g>
+      <g transform="translate(191 190)"><circle r="20" fill="#092127" stroke="#74f2ce"/><path d="M-8-2q8-11 16 0v11H4V1m-12-3V9h4V1" fill="none" stroke="#74f2ce"/></g>
+      <g transform="translate(448 341)"><circle r="20" fill="#0f2225" stroke="#ffca71"/><circle r="8" fill="none" stroke="#ffca71"/><path d="M0-13v5m0 16v5" stroke="#ffca71"/></g>
+      <g transform="translate(178 355)"><circle r="20" fill="#092127" stroke="#74f2ce"/><path d="M0-10c9 7 8 14 0 20-8-6-9-13 0-20Zm0 3v14" fill="none" stroke="#74f2ce"/></g>
+      <g transform="translate(344 416)"><circle r="19" fill="#102025" stroke="#ff7b7b" opacity=".75"/><path d="M-7-9v18l13-9-13-9Zm0 9-7-6m7 6-7 6" fill="none" stroke="#ff7b7b" stroke-width="2"/></g>
+      <text x="22" y="27" fill="#668b90" font-family="Inter,Segoe UI,sans-serif" font-size="8" letter-spacing="1.4">LIVE PROXIMITY SPACE</text>
+      <text x="22" y="54" fill="#efffff" font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="350">5 <tspan fill="#78989d" font-size="9">DEVICES MAPPED</tspan></text>
+      <text x="408" y="493" fill="#708a8f" font-family="Inter,Segoe UI,sans-serif" font-size="7">ANGLES ARE VISUAL PLACEMENTS</text>
+    </g>
+  </g>
+</svg>
